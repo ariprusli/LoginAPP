@@ -8,5 +8,5 @@ $session = new USER();
 
 if(!$session->isLoggedIn()){
 
-	$session->redirect('home.php');
+	$session->redirect('index.php');
 }
